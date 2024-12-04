@@ -1,0 +1,166 @@
+@media only screen and (max-width:991px) {
+    .services {
+        display: none;
+    }
+
+    .menu {
+        display: block;
+    }
+
+    .logo-img {
+        width: 200px;
+    }
+
+    .examples {
+        gap: 20px;
+    }
+
+    .example {
+        width: calc(50% - 10px);
+        height: 9rem;
+    }
+
+    h5 {
+        margin-top: 4rem;
+    }
+
+    .box {
+        padding: 40px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .header {
+        flex-direction: column-reverse;
+        gap: 50px;
+    }
+
+    .left-header {
+        max-width: 100%;
+        align-items: center;
+    }
+
+    .third-btn {
+        width: 80%;
+        text-align: center;
+    }
+
+    .menu {
+        margin-left: 350px;
+    }
+
+    .big-features {
+        flex-direction: column;
+    }
+
+    .left-section {
+        width: 100%;
+    }
+
+    .right-section {
+        width: 100%;
+        align-items: center;
+    }
+
+    #revers {
+        flex-direction: column-reverse;
+    }
+
+    .panel-box {
+        flex-direction: column-reverse;
+    }
+
+    .panel-right {
+        width: 100vw;
+        height: 500px;
+        background-image: url("asset\ 41.png"), url("asset\ 40.png");
+        background-repeat: no-repeat;
+        background-size: 23vw 30vh, 99% 90%;
+        background-position: center, top 20px center;
+        text-align: center;
+    }
+
+    .try-panel {
+        height: 100%;
+    }
+
+    .panel-left {
+        align-items: center;
+        width: 100%;
+    }
+
+    .btn-box {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .third-btn {
+        width: 100%;
+    }
+
+    .footer-in {
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .footer-right {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .footer-box {
+        height: 100%;
+        text-align: center;
+    }
+
+    .log-pic {
+        width: 100%;
+    }
+
+
+}
+
+@media only screen and (max-width: 600px) {
+    .menu {
+        margin-left: 250px;
+    }
+
+    .example {
+        width:100%;
+        height: 9rem;
+    }
+   
+    .try-panel {
+        height: 100%;
+    }
+    .panel-left{
+        width: 100%;
+        height: 100%;
+    }
+    .btn-box{
+        height: 200px;
+    }
+    .fourth-btn{
+        font-size: 15px;
+    }
+    
+}
+@media only screen and (max-width: 490px){
+  .menu{
+        margin-left: 200px;
+  }
+  h1{
+    font-size: 30px;
+  }
+  .text{
+    font-size: 15px;
+    text-align: center;
+  }
+  #min-text{
+    font-size: 10px;
+  }
+  .logo-img{
+    width: 150px;
+  }
+}
